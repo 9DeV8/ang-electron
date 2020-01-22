@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+input.ng-invalid.ng-dirty{
+    border-bottom-color : #fc0000 !important;
+    box-shadow: 0 1px 0 0 #fc0000 !important;
+}
+
+button.btn-submit{
+    width: 30%;
+    background-color: #008cff;
+    text-align: center;
+}
+
+ul.answer li:hover{
+    background-color: #008cff;
+    color: #eafaf9;
+    cursor: pointer;
+}
+
+ul li.selected{
+    background-color: #008cff !important;
+    color: #eafaf9 !important;
+}
+
+body {
+    background-image: url("assets/img/background2.jpg");
+    background-attachment: fixed;
+  }
+
+h1   {
+    color: #111111;
+    font-family: "Impact";
+    font-style: italic;
+}
+
+h2 {
+
+    font-family: "serif";
+}
+
